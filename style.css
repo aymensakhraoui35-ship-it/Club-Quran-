@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Arial;
+  direction: rtl;
+  background: linear-gradient(135deg, #0b3d2e, #1fa67a);
+}
+
+.container {
+  width: 380px;
+  margin: 90px auto;
+  background: white;
+  border-radius: 20px;
+  padding: 30px 20px 25px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+/* اللوقو */
+.logo-box {
+  width: 130px;
+  height: 130px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-box img {
+  width: 100px
+ 
+ 
+}
+
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  color: #0b3d2e;
+}
+
+.subtitle {
+  text-align: center;
+  color: #8a6d1d;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+input, select {
+  width: 100%;
+  padding: 9px;
+  margin: 8px 0;
+  border-radius: 11px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+label {
+  font-size: 14px;
+  color: #0b3d2e;
+  display: block;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 18px;
+  background: linear-gradient(135deg, #0b3d2e, #8a6d1d);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 15px;
+}
+
+
+
